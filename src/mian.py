@@ -90,7 +90,7 @@ def update_label_value(slider, label):
 
 
 window = tk.Tk()
-window.title("Image Processing UI")
+window.title("Deep-Fake")
 window.geometry("950x800")
 
 style = ttk.Style()
