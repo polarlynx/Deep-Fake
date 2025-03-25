@@ -7,22 +7,29 @@ Eliminate image Ai traces and separate layers to make them editable.
 3. Mask generation  
 4. PSD packaging  
 
-## Environment Setup
-Run:
-```
-pip install -r requirements.txt
-```
-to install all required dependencies.
+## Environment
+- **Python version**: 3.10.16  
+- Install dependencies:
+  ```
+  pip install -r requirements.txt
+  ```
+
+## How to Run
+1. **Directly with .exe**  
+   - Download `Deepfake.exe` from Releases and run it.  
+2. **Using Python**  
+   - Make sure you have Python 3.10.16  
+   - Run `python main.py`
 
 ## Usage
-1. Execute `python main.py`.
-2. Click **Select Image** in the GUI to choose an image.
-3. Adjust parameters such as max images, min area, kernel size, etc.
-4. Click **Run Processing** and wait for the process to finish.
+1. Select the source image.  
+2. Adjust parameters (max images, min area, kernel size, etc.).  
+3. Click **Run Processing**.  
+4. Wait for the process to complete.
 
-## File Description
-- **source** folder: contains the separately segmented images  
-- **masked** folder: contains the generated masks  
-- **final.psd**: the final layered PSD file  
+## Files Generated
+- **source** folder: Segmented images  
+- **masked** folder: Generated masks  
+- **final.psd**: Final PSD file with all layers  
 
-Customize parameters or scripts as needed.  
+Customize parameters or scripts as needed, have fun!
